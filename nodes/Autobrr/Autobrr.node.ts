@@ -14,9 +14,9 @@ import {
 
 export class Autobrr implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'autobrr',
+		displayName: 'Autobrr',
 		name: 'autobrr',
-		icon: { light: 'file:autobrr.svg', dark: 'file:autobrr.svg' },
+		icon: { light: 'file:autobrr.svg', dark: 'file:autobrr.dark.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
