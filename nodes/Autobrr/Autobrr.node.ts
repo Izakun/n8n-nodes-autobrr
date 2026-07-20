@@ -77,7 +77,7 @@ export class Autobrr implements INodeType {
 				const handlers: Record<string, () => Promise<unknown>> = {
 					getConfig: () => request('/api/config'),
 					getFilters: () => request('/api/filters'),
-					getIndexers: () => request('/api/indexers'),
+					getIndexers: () => request('/api/indexer'),
 					getIrc: () => request('/api/irc'),
 					getReleases: () => request('/api/release', { limit: param<number>('limit', 50) }),
 				};
